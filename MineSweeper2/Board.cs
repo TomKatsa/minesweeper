@@ -60,7 +60,7 @@ namespace MineSweeper2
                             {
                                 RevealAll();
                                 MessageBox.Show("Mine!");
-                                EndGame();
+                                //EndGame();
                             }
                             Reveal(cell);
                         }
@@ -185,13 +185,15 @@ namespace MineSweeper2
                 }
             }
         }
+        /*
         private void EndGame()
         {
-            Board nboard = new Board(w, h, mines);
-            nboard.Show();
+            //Board nboard = new Board(w, h, mines);
+            //nboard.Show();
             //Close();
 
         }
+        */
 
         private void WinGame()
         {
